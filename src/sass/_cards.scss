@@ -1,3 +1,7 @@
+body {
+  background-color: #dcedf5;
+}
+
 .info {
   display: flex;
   align-items: center;
@@ -23,8 +27,8 @@
 
 .photo-link {
   display: block;
-  width: 310px;
-  height: 190px;
+  width: 540px;
+  height: 255px;
 }
 
 .photo-img {
@@ -37,13 +41,16 @@
 
 .photo-card {
   position: relative;
-  flex-basis: calc((100% - 120px) / 4);
-  margin-left: 12px;
-  margin-top: 12px;
+  flex-basis: calc((100% - 120px) / 2);
+  margin-left: 15px;
+  margin-top: 15px;
 }
 
 .load-more {
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);
+  margin-bottom: 15px;
+  width: 170px;
+  height: 50px;
 }
